@@ -1,0 +1,165 @@
+/* =======================
+   RESET & BODY STYLES
+   ======================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;                /* Remove default body margin */
+    padding: 0;               /* Remove default body padding */
+    background-color: #f4f4f4;/* Light gray background */
+    font-family: Arial, sans-serif;
+}
+
+/* =======================
+   MAIN CONTENT
+   ======================= */
+.main-content {
+    max-width: 1200px;    /* Overall content width */
+    margin: 20px auto;    /* Centered horizontally, 20px top/bottom */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    height:100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* =======================
+   SEARCH FLIGHTS
+   ======================= */
+.search-container {
+    max-width: 600px;   /* Narrower container for the search form */
+    margin: 0 auto 20px;/* Center horizontally, 20px bottom margin */
+    text-align: center;
+}
+
+.search-container h2 {
+    margin-bottom: 10px;
+}
+
+.search-container form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-container form input,
+.search-container form button {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-btn {
+    background-color: #0078D7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #005bb5;
+}
+
+/* =======================
+   TABLE (Flight Results)
+   ======================= */
+.table-container {
+    margin: 20px auto;
+    overflow-x: auto;
+    max-width: 1000px;  /* Adjust table max-width as desired */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+    text-transform: uppercase;
+}
+
+.select-btn {
+    padding: 8px 12px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.select-btn:hover {
+    background-color: #4cae4c;
+}
+
+/* =======================
+   BOOKING FORM
+   ======================= */
+.booking-container {
+    max-width: 400px;         /* Make the booking form narrower */
+    margin: 20px auto;        /* Center horizontally, 20px top margin */
+    background-color: #e0e0e0;/* Light gray form background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.booking-container h2 {
+    margin-bottom: 10px;
+}
+
+.booking-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booking-container label {
+    width: 100%;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.booking-container input,
+.booking-container select {
+    width: 100%;
+    max-width: 400px;  /* Further limit input width if you want it narrower */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.book-btn {
+    width: 100%;
+    max-width: 400px;
+    background-color: #0078D7;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.book-btn:hover {
+    background-color: #005bb5;
+}
+

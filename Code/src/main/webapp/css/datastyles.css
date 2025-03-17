@@ -1,0 +1,25 @@
+.con1{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:600px;
+    margin-top: 10px;
+    background-size: cover;
+
+    
+}
+.con1 table{
+	overflow-y:auto;	
+}
+th,td{
+  border-width: 3px;
+  padding: 10px;
+}
+.footer{
+	positon:fixed;
+	bottom:0;
+	width:100%;
+}
